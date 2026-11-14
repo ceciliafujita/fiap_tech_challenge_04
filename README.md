@@ -195,9 +195,10 @@ O aplicativo [`app.py`](app.py) conta com duas áreas de negócio:
     │   ├── chroma_db/                  <- Base vetorial ChromaDB indexada
     │   └── classificador_sentimento.pkl <- Modelo Scikit-Learn treinado no EDA
     └── notebooks/
-        ├── 00_s3.ipynb       <- Ingestão no S3 (Raw e Bronze)
-        ├── 01_EDA.ipynb      <- Limpeza, engenharia de dados e treino do modelo ML
-        └── 01_rag.ipynb      <- Pipeline RAG experimental (LangChain + Chroma + Gemini)
+        ├── 00_s3.ipynb             <- Ingestão no S3 (Raw e Bronze)
+        ├── 01_EDA.ipynb            <- Limpeza, engenharia de dados e treino do modelo ML
+        └── 02_rag.ipynb            <- Pipeline RAG experimental (LangChain + Chroma + Gemini)
+        └── 03_avaliacao_rag.ipynb  <- avaliação do RAG
 ```
 
 ---
