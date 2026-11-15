@@ -3,6 +3,12 @@
 
 Solução completa de **Voice of Customer (VoC)** e **Customer Experience (CX)** combinando **Retrieval-Augmented Generation (RAG)**, Machine Learning clássico de NLP (**TF-IDF + Scikit-Learn**), armazenamento analítico na **AWS S3**, banco vetorial **ChromaDB**, orquestração com **LangChain** e modelos generativos **Google Gemini**.
 
+### Equipe:
+- Lucas Ruiz, 		   RM 373058
+- Jacqueline Amaral, RM 371704
+- Cecília Fujita, 	RM 372915
+
+
 ---
 
 ## 📌 1. Visão Geral do Problema de Negócio
@@ -204,12 +210,13 @@ O aplicativo [`app.py`](app.py) conta com duas áreas de negócio:
 ---
 
 ## 🎥 8. Vídeo de Apresentação
-- **Link do Vídeo:** [Adicionar Link do YouTube / Loom]
+- **Link do Vídeo:** (https://docs.google.com/videos/d/15CK_idCq4zxeN6cnK8XB0C0d5bQMfiGlreSJIKLTvFI/play?usp=sharing)
+- **Link da Apresentação:** https://docs.google.com/presentation/d/1B7Fg2b-j7loe1Dz4_ioGqnVcAivOF1eCBxqv6Hobq_M/edit?usp=sharing
 - **Duração Máxima:** 7 minutos.
-- **Roteiro sugerido:**
-  1. *Introdução (1 min):* O problema de Voice of Customer e arquitetura geral (S3, Chroma, Gemini).
-  2. *Engenharia de Dados & EDA (2 min):* Limpeza dos textos, pipeline medalhão e treino do modelo de Machine Learning clássico.
-  3. *Demonstração Prática no Streamlit (3 min):*
+- **Roteiro:**
+  1. *Introdução :* O problema de Voice of Customer e arquitetura geral (S3, Chroma, Gemini).
+  2. *Engenharia de Dados & EDA:* Limpeza dos textos, pipeline medalhão e treino do modelo de Machine Learning clássico.
+  3. *Demonstração Prática no Streamlit:*
      - Aba 1: Perguntas estratégicas de negócio, filtros de notas/atraso e citação dos Review IDs com relevância %.
      - Aba 2: Simulação de uma queixa nova, classificação com Scikit-Learn e geração da resposta de SAC com Gemini.
-  4. *Conclusão (1 min):* Decisões técnicas e impacto para tomadores de decisão.
+  4. *Conclusão:* Decisões técnicas e impacto para tomadores de decisão.
